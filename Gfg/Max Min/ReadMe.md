@@ -31,5 +31,5 @@ You don't need to read input or print anything. Your task is to complete the fun
  
 
 Constraints:
-`1 <= N <= 105`
-`-109 <= Ai <= 109`
+- `1 <= N <= 105`
+- `-109 <= Ai <= 109`
