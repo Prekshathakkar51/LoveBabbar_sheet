@@ -1,27 +1,35 @@
-## You are given a string `s`. You need to reverse the string.
+## Given an array A of size N of integers. Your task is to find the sum of minimum and maximum element in the array.
 
+#### Example 1:
 ```
-Example 1:
-
 Input:
-s = Geeks
-Output: skeeG
-```
+N = 5
+A[] = {-2, 1, -4, 5, 3}
 
-```
-Example 2:
+Output: 1
+Explanation: min = -4, max =  5. Sum = -4 + 5 = 1
+ ```
 
+#### Example 2:
+```
 Input:
-s = for
-Output: rof
+N = 4
+A[]  = {1, 3, 4, 1}
+
+Output: 5
+Explanation: min = 1, max = 4. Sum = 1 + 4 = 5
 ```
 
-### Your Task:
+#### Your Task:  
+You don't need to read input or print anything. Your task is to complete the function `findSum()` which takes the `array A[]` and its size `N` as inputs and returns the summation of minimum and maximum element of the array.
 
-You only need to complete the function `reverseWord()` that takes `s` as parameter and returns the reversed string.
+ 
 
-Expected Time Complexity: O(|S|).
-Expected Auxiliary Space: O(1).
+Expected Time Complexity: `O(N)`
+Expected Auxiliary Space: `O(1)`
+
+ 
 
 Constraints:
-```1 <= |s| <= 10000```
+`1 <= N <= 105`
+`-109 <= Ai <= 109`
