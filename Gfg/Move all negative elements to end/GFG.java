@@ -1,0 +1,98 @@
+//{ Driver Code Starts
+//Initial Template for Java
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+	public static void main(String[] args) throws IOException
+	{
+	        BufferedReader br =
+            new BufferedReader(new InputStreamReader(System.in));
+        int t =
+            Integer.parseInt(br.readLine().trim()); // Inputting the testcases
+        while(t-->0)
+        {
+            int n = Integer.parseInt(br.readLine().trim());
+            int a[] = new int[(int)(n)];
+            String inputLine[] = br.readLine().trim().split(" ");
+            for (int i = 0; i < n; i++) {
+                a[i] = Integer.parseInt(inputLine[i]);
+            }
+            
+            Solution obj = new Solution();
+            obj.segregateElements(a, n);
+            
+            for(int i=0;i<n;i++)
+            System.out.print(a[i]+" ");
+            
+            System.out.println();
+        }
+	}
+}
+
+// } Driver Code Ends
+
+
+//User function Template for Java
+
+class Solution {
+    
+    public void segregateElements(int arr[], int n)
+    {
+        // Your code goes here
+        
+        // array code
+        // int count = 0;
+        // int[] a = new int[n];
+        
+        // for(int i = 0; i<n;i++)
+        // {
+        //     if(arr[i]>=0)
+        //     {
+        //         a[count] = arr[i];
+        //         count++;
+        //     }
+            
+        // }
+        
+        // for(int i = 0; i<n; i++)
+        // {
+        //     if(arr[i]<0)
+        //     {
+        //         a[count] = arr[i];
+        //         count++;
+        //     }
+            
+        // }
+        
+        // for(int i = 0; i<n; i++)
+        // {
+        //     arr[i] = a[i];
+            
+        // }
+        
+        // ArrayList Code
+        
+        // ArrayList<Integer> ar1 = new ArrayList<>();
+        // ArrayList<Integer> ar2 = new ArrayList<>();
+        
+        // for(int i = 0; i<n; i++){
+        //     if(arr[i]<0){
+        //         ar1.add(arr[i]);
+        //     }
+        //     else{
+        //         ar2.add(arr[i]);
+        //     }
+        // }
+        // ar2.addAll(ar1);
+        
+        // for(int i = 0; i<n; i++){
+        //     arr[i] = ar2.get(i);
+        // }
+        
+            
+        
+    }
+}
