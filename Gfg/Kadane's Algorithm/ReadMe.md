@@ -38,3 +38,5 @@ of element (-1)
 Constraints:
 - `1 ≤ N ≤ 106`
 - `-107 ≤ A[i] ≤ 107`
+
+https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
